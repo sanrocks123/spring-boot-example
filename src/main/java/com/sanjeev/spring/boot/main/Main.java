@@ -46,6 +46,8 @@ public class Main {
      */
     public static void main(String[] args) {
         SpringApplication app = new SpringApplication(Main.class);
+  
+        System.out.println("Starting App");
         app.setBanner(new Banner() {
             @Override
             public void printBanner(Environment env, Class<?> classz, PrintStream ps) {
